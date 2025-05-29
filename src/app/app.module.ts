@@ -4,13 +4,15 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { ExampleComponent } from './example/example.component';
+import { ProductFormComponent } from './product-form/product-form.component';
 
 @NgModule({
-  declarations: [ =
+  declarations: [
     AppComponent,
-    ExampleComponent
+    ExampleComponent,
+    ProductFormComponent,
   ],
-  imports: [ 
+  imports: [
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
